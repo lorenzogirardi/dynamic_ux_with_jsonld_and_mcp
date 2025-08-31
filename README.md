@@ -74,11 +74,6 @@ Those who adapt will gain visibility and relevance; those who don’t risk disap
 
 ## Case Study: Upgrading demo-app-eshop
 
-**Repository:**
-
-- Original: [lorenzogirardi/demo-app-eshop](https://github.com/lorenzogirardi/demo-app-eshop)
-- JSON-LD Upgraded: [lorenzogirardi/demo-app-eshop-jsonld](https://github.com/lorenzogirardi/demo-app-eshop-jsonld)
-
 
 ### Setup
 
@@ -89,12 +84,12 @@ Those who adapt will gain visibility and relevance; those who don’t risk disap
 
 ## Screenshots and What They Show
 
-| Screenshot | Description |
-| :-- | :-- |
-| ![Designer Shoes page][^1] | **Product Page:** Shows human-readable details for a pair of designer shoes—name, image, price, and description. The classic version, meant for human eyes only, lacks structured machine data. |
-| ![Perplexity comparison][^2] | **Conversational AI Test:** Perplexity fails to find details on the classic shop (left), but instantly extracts price, availability, images, and description from the JSON-LD enabled shop (right). This verifies the transformation for AI consumption. |
-| ![Jules code change][^3] | **Key Code Edit:** Shows how the JSON-LD script was added to each product page. This injects schema.org compliant metadata for all product details, enabling machine parsing and AI understanding. |
-| ![Ngrok containers][^4] | **Technical Exposure:** ngrok dashboard proves both docker containers (classic and JSON-LD) were exposed to the internet for parallel testing, simulating a real user/scenario. |
+### Application overview
+ 
+![traditional plp](https://res.cloudinary.com/ethzero/image/upload/c_scale,w_720/v1756552351/ai/dynamic_ux_with_jsonld_and_mcp/traditional/plp-traditional.png) 
+
+![traditional pdp](https://res.cloudinary.com/ethzero/image/upload/c_scale,w_720/v1756551701/ai/dynamic_ux_with_jsonld_and_mcp/traditional/pdp-traditional.png) 
+
 
 
 ***
@@ -136,6 +131,12 @@ return (
 - Updated in `src/app/products/[id]/page.tsx`
 - Every product detail is mapped to its schema property and updated dynamically per page load.
 - Minimal code effort for massive increase in machine and AI visibility.
+
+![jules](https://res.cloudinary.com/ethzero/image/upload/c_scale,w_720/v1756556731/ai/dynamic_ux_with_jsonld_and_mcp/misc/jules-prompt.png)
+
+
+![git](https://res.cloudinary.com/ethzero/image/upload/c_scale,w_720/v1756556737/ai/dynamic_ux_with_jsonld_and_mcp/misc/github-commit-jsonld.png)
+
 
 ***
 
