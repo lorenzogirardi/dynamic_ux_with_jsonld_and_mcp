@@ -154,6 +154,26 @@ JSON-LD and schema.org format is compatible with chatbots, voice assistants, sea
 As verified in this project, changes require minimal engineering and immediately open the shop to AI-driven referrals.
 
 
+#### Traditional
+
+![src pdp traditional](https://res.cloudinary.com/ethzero/image/upload/c_scale,w_720/v1756552933/ai/dynamic_ux_with_jsonld_and_mcp/traditional/pdp-source-traditional.png)
+
+![schema validation traditional](https://res.cloudinary.com/ethzero/image/upload/c_scale,w_720/v1756556418/ai/dynamic_ux_with_jsonld_and_mcp/traditional/schema-validation-traditional.png)
+
+![src pdp traditional](https://res.cloudinary.com/ethzero/image/upload/c_scale,w_720/v1756556418/ai/dynamic_ux_with_jsonld_and_mcp/traditional/rich-test-traditional.png)
+
+
+
+
+#### Jsonld
+
+![src pdp jsonld](https://res.cloudinary.com/ethzero/image/upload/c_scale,w_720/v1756556048/ai/dynamic_ux_with_jsonld_and_mcp/jsonld/pdp-source-jsonld.png)
+
+![schema validation jsonld](https://res.cloudinary.com/ethzero/image/upload/c_scale,w_720/v1756556046/ai/dynamic_ux_with_jsonld_and_mcp/jsonld/schema-validation-jsonld.png)
+
+![src pdp jsonld](https://res.cloudinary.com/ethzero/image/upload/c_scale,w_720/v1756556045/ai/dynamic_ux_with_jsonld_and_mcp/jsonld/rich-test-jsonld.png)
+
+
 ### Query-Optimized Content
 
 Traditional SEO optimizes for keywords. AI SEO, enabled by JSON-LD, optimizes for **user requests**.
@@ -175,6 +195,16 @@ Resellers, affiliates, and partners can integrate products via machine-readable 
 Organizations can now track conversational engagement, AI-driven sessions, and measure new channels of customer interaction.
 
 
+#### Traditional
+
+![perplexity traditional answer](https://res.cloudinary.com/ethzero/image/upload/c_scale,w_720/v1756553130/ai/dynamic_ux_with_jsonld_and_mcp/traditional/perplexity-chat-traditional.png)
+
+
+#### Jsonld
+
+![perplexity jsonld answer](https://res.cloudinary.com/ethzero/image/upload/c_scale,w_720/v1756556046/ai/dynamic_ux_with_jsonld_and_mcp/jsonld/perplexity-chat-json.png)
+
+
 ### Future-Proofing Your Commerce Strategy
 
 The retail future is conversational; traditional keywords are giving way to voice and chat recommendations.
@@ -184,7 +214,7 @@ JSON-LD makes a product catalog “first-class content” in every context—cha
 
 ## Conclusion: Why This Is Strategic
 
-The experiment with demo-app-eshop proves a simple truth:
+The experiment proves a simple truth:
 **Structured data is the new foundation for digital commerce, not only for Google search but for all the intelligent platforms users will increasingly rely on.**
 
 - **Quick impact for minimal technical effort**
@@ -195,35 +225,27 @@ Smart businesses will empower their content with AI-centric structure today, gai
 
 ***
 
-### Visual Evidence
+## Reflections: Is This Really the Future?
 
-- ![Designer Shoes page][^1]
-- ![Perplexity comparison][^2]
-- ![Jules code change][^3]
-- ![Ngrok containers][^4]
+So is this the future? Yes and no.  
+There are enormous new opportunities ahead, but also many new challenges. Conversational platforms like ChatGPT, Claude, Gemini, and Perplexity are quickly becoming the primary interfaces for users—but at present, these interfaces are asynchronous and opaque.
 
-Each screenshot documents the journey from old-school presentation to full AI SEO readiness, serving as a playbook for all modern e-commerce projects.
+- **Who is calling your e-commerce?**  
+  Shop owners never know who is querying their business—there’s no clear user identification when the interaction goes through AI agents.
+- **Unintended side effects of open data**  
+  The more information we expose, the greater the risk of undesirable consequences. For example, if you publish the number of items in stock, competitors can easily analyze your business performance.
+- **Sensitive data risks**  
+  There's always the danger of unintentionally exposing sensitive data that should remain private.
+- **WAF (Web Application Firewall) solutions**  
+  Security solutions for filtering and protecting traffic, like WAFs, become much trickier when the main traffic source is indirect or mediated by AI chat platforms.
 
-***
+### What is still missing?
+Realistically, just as search engine monopolies formed around Google, Yahoo, Baidu, or Bing, we’re likely to see a small handful of dominant chat platforms.  
+These will almost certainly evolve to include sort of collaboration/registration/whatever processes, mechanisms for optimizing the way queries work, and features to pass specific fields enabling a full, end-to-end traceable session—from chat request to final e-commerce transaction.
 
-**Author:**
-Tech Manager \& R\&D Lead
-August 2025
+In short, the frontier is wide open but incomplete:  
+- **We need session traceability and user context**
+- **We must balance data openness with business privacy and security**
+- **We should prepare for a future where e-commerce optimization is not just SEO, but also “Chat Optimization” and secure, user-aware integrations with AI platforms**
 
-***
-
-> Ready to enable AI SEO for your shop?
-> Start with JSON-LD, future-proof your visibility, and join the conversational commerce revolution today.
-
----
-
-<div style="text-align: center">⁂</div>
-
-[^1]: product-page-example.jpg
-
-[^2]: perplexity-difference.jpg
-
-[^3]: jules-code-change.jpg
-
-[^4]: docker-and-ngrok.jpg
-
+This is just the beginning, and the conversation—and technology—will keep evolving.
